@@ -1,5 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" styleClass="backyardbg" stylesheets="@almnac.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GAME" />
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" styleClass="backyardbg" stylesheets="@almnac.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GAME">
+   <children>
+      <AnchorPane fx:id="topwood" layoutX="101.0" prefHeight="40.0" prefWidth="628.0" styleClass="woodbg" stylesheets="@almnac.css">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="59.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" styleClass="cherrybombbg">
+               <image>
+                  <Image url="@sun.gif" />
+               </image>
+            </ImageView>
+            <Button fx:id="peashooter" layoutX="85.0" layoutY="1.0" mnemonicParsing="false" onAction="#plantshooter" prefHeight="40.0" prefWidth="59.0" styleClass="peashooterinactivebg" stylesheets="@almnac.css" />
+            <Button fx:id="sunflower" layoutX="172.0" layoutY="1.0" mnemonicParsing="false" onAction="#plantshooter" prefHeight="40.0" prefWidth="59.0" styleClass="sunflowerbg" stylesheets="@almnac.css" />
+            <ProgressBar layoutX="382.0" layoutY="16.0" prefWidth="200.0" progress="0.0" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="i00" layoutX="179.0" layoutY="57.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i01" layoutX="186.0" layoutY="117.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i02" layoutX="179.0" layoutY="187.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i03" layoutX="179.0" layoutY="247.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i04" layoutX="179.0" layoutY="326.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i10" layoutX="238.0" layoutY="57.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i20" layoutX="297.0" layoutY="57.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i30" layoutX="356.0" layoutY="48.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i40" layoutX="415.0" layoutY="57.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i50" layoutX="474.0" layoutY="57.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i60" layoutX="533.0" layoutY="48.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i70" layoutX="592.0" layoutY="57.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i80" layoutX="651.0" layoutY="57.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i11" layoutX="238.0" layoutY="117.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i12" layoutX="238.0" layoutY="187.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i13" layoutX="245.0" layoutY="254.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i14" layoutX="245.0" layoutY="326.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i21" layoutX="297.0" layoutY="117.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i22" layoutX="297.0" layoutY="187.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i23" layoutX="297.0" layoutY="254.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i24" layoutX="297.0" layoutY="326.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i31" layoutX="356.0" layoutY="127.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i32" layoutX="356.0" layoutY="187.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i33" layoutX="356.0" layoutY="254.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i34" layoutX="363.0" layoutY="314.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i41" layoutX="415.0" layoutY="127.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i42" layoutX="415.0" layoutY="187.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i43" layoutX="422.0" layoutY="254.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i44" layoutX="415.0" layoutY="326.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i51" layoutX="481.0" layoutY="127.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i52" layoutX="474.0" layoutY="200.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i53" layoutX="474.0" layoutY="254.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i54" layoutX="481.0" layoutY="314.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i61" layoutX="533.0" layoutY="117.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i62" layoutX="533.0" layoutY="187.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i63" layoutX="533.0" layoutY="254.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i64" layoutX="533.0" layoutY="314.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i71" layoutX="592.0" layoutY="127.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i72" layoutX="592.0" layoutY="187.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i73" layoutX="592.0" layoutY="254.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i74" layoutX="592.0" layoutY="314.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i81" layoutX="651.0" layoutY="127.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i82" layoutX="651.0" layoutY="187.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i83" layoutX="651.0" layoutY="247.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="i84" layoutX="651.0" layoutY="314.0" mnemonicParsing="false" onAction="#plantdrop" prefHeight="60.0" prefWidth="59.0" style="-fx-background-color: transparent;" />
+      <Label fx:id="counter" alignment="CENTER" contentDisplay="CENTER" layoutX="94.0" layoutY="49.0" prefHeight="17.0" prefWidth="59.0" styleClass="counterbg" stylesheets="@almnac.css" text="50" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

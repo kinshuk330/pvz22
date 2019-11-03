@@ -10,6 +10,7 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.shape.Circle;
+import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 import javafx.stage.Window;
 import javafx.util.Duration;
@@ -86,7 +87,8 @@ selecetdlevel=3;        }
         //Set node to be animated
         pathTransition.setNode(btn);
         //Rotate button through a circular path locate at (200,200) with radius 50
-        pathTransition.setPath(new Circle(200, 200, 50));
+        pathTransition.setPath(new Line(710,34,600,34));
+        pathTransition.setOrientation(PathTransition.OrientationType.ORTHOGONAL_TO_TANGENT);
 
         pathTransition.play();
 

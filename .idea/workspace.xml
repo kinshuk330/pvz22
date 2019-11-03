@@ -89,7 +89,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/pvz22-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -227,7 +227,11 @@
       <workItem from="1572759267333" duration="2412000" />
       <workItem from="1572762179282" duration="2124000" />
       <workItem from="1572764346484" duration="2461000" />
-      <workItem from="1572766970746" duration="1282000" />
+      <workItem from="1572766970746" duration="10519000" />
+      <workItem from="1572781038592" duration="5129000" />
+      <workItem from="1572787020825" duration="1774000" />
+      <workItem from="1572788823882" duration="4154000" />
+      <workItem from="1572793021400" duration="658000" />
     </task>
     <servers />
   </component>

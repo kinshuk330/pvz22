@@ -108,3 +108,23 @@
     -fx-background-image: url("backyard.jpg");
     -fx-background-size: 100% 100%;
 }
+.woodbg
+{
+    -fx-background-image: url("wood.jpg");
+    -fx-background-size: 100% 100%;
+}
+.sunbg
+{
+    -fx-background-image: url("sunwood.jpg");
+    -fx-background-size: 100% 100%;
+}
+.counterbg
+{
+    -fx-background-image: url("Counter.png");
+    -fx-background-size: 100% 100%;
+}
+.peashooterinactivebg
+{
+    -fx-background-image: url("inactive_peashooter.png");
+    -fx-background-size: 100% 100%;
+}
