@@ -20,6 +20,7 @@ public class MAINMENU extends Application {
     int choice;
     USER u1;
     public TextField namefield;
+
     public TextField username;
 
     public void SUBMIT(ActionEvent actionEvent) throws IOException {
@@ -42,10 +43,10 @@ public class MAINMENU extends Application {
 
         }
     else
-        {
+        {Window n1=    ((Node)actionEvent.getSource()).getScene().getWindow();
             u1=new USER(name,user_name);
-        Window n1=    ((Node)actionEvent.getSource()).getScene().getWindow();
-            u1.select_level(n1);
+
+            u1.StartNewGame(n1);
 
         }}
     public void StartScreen()
@@ -60,7 +61,7 @@ public class MAINMENU extends Application {
         root= FXMLLoader.load(getClass().getResource("front-page.fxml"));
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root, 600  , 400));
-        primaryStage.setResizable(false);
+//        primaryStage.setResizable(false);
         primaryStage.show();
 
     }

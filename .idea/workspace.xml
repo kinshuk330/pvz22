@@ -68,8 +68,13 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1SeRxJnBXetQIViLSVKa8bijGBv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -84,13 +89,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -214,11 +219,37 @@
       <workItem from="1572638780199" duration="2359000" />
       <workItem from="1572641171867" duration="3865000" />
       <workItem from="1572646050508" duration="1741000" />
+      <workItem from="1572670670881" duration="1965000" />
+      <workItem from="1572672760708" duration="76000" />
+      <workItem from="1572672874430" duration="999000" />
+      <workItem from="1572710593738" duration="3702000" />
+      <workItem from="1572714336470" duration="1891000" />
+      <workItem from="1572759267333" duration="2412000" />
+      <workItem from="1572762179282" duration="2124000" />
+      <workItem from="1572764346484" duration="2461000" />
+      <workItem from="1572766970746" duration="10519000" />
+      <workItem from="1572781038592" duration="5129000" />
+      <workItem from="1572787020825" duration="1774000" />
+      <workItem from="1572788823882" duration="4154000" />
+      <workItem from="1572793021400" duration="658000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
