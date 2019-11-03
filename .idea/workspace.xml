@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/ALMNAC.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/ALMNAC.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/CREATE_USER.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/CREATE_USER.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/MAINMENU.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/MAINMENU.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/META-INF/JavaFxApplication.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/almnac.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/almnac.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/bg-frontpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/bg-frontpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFxApplication/front-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFxApplication/front-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ALMNAC.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ALMNAC.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CREATE_USER.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/CREATE_USER.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MAINMENU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MAINMENU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/almnac.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/almnac.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bg-frontpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/bg-frontpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/front-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front-page.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,10 +86,19 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1SeRxJnBXetQIViLSVKa8bijGBv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.includeLibraries" value="false" />
@@ -84,7 +111,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -104,18 +131,6 @@
       <recent name="C:\Users\KINSHUK\IdeaProjects\pvz\css" />
       <recent name="C:\Users\KINSHUK\IdeaProjects\pvz\src\sample" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -137,7 +152,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_221" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="PLANTSVSZOMBIES" />
       <module name="JavaFxApplication" />
@@ -223,5 +238,31 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1572704366556">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1572704366556" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1572704650020">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1572704650020" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1572747184058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1572747184058" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1572747184058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1572747184058" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1572747184058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1572747184058" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1572747184058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1572747184058" />
   </component>
 </project>

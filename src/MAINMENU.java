@@ -58,7 +58,7 @@ public class MAINMENU extends Application {
         Parent root;
 
         root= FXMLLoader.load(getClass().getResource("front-page.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("PLANT VS ZOMBIE");
         primaryStage.setScene(new Scene(root, 600  , 400));
         primaryStage.setResizable(false);
         primaryStage.show();
