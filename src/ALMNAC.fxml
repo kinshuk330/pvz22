@@ -5,20 +5,20 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ALMNAC">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" stylesheets="@bg-al.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ALMNAC">
    <children>
-      <Button maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#plantsdetails" prefHeight="400.0" prefWidth="300.0" styleClass="plantsbg" stylesheets="@almnac.css" />
-      <Button layoutX="300.0" mnemonicParsing="false" onAction="#zombiedetails" prefHeight="400.0" prefWidth="300.0" styleClass="zombiesbg" stylesheets="@almnac.css" />
-      <Label alignment="TOP_LEFT" contentDisplay="TEXT_ONLY" layoutX="276.0" layoutY="146.0" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #000000;" text="SELECT " textFill="#ffffff" underline="true">
+      <Button layoutX="86.0" layoutY="127.0" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#plantsdetails" opacity="0.0" prefHeight="198.0" prefWidth="190.0" styleClass="plantsbg" stylesheets="@almnac.css" />
+      <Button layoutX="328.0" layoutY="125.0" mnemonicParsing="false" onAction="#zombiedetails" opacity="0.0" prefHeight="198.0" prefWidth="190.0" styleClass="zombiesbg" stylesheets="@almnac.css" />
+      <Label alignment="TOP_LEFT" contentDisplay="TEXT_ONLY" layoutX="276.0" layoutY="146.0" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #000000;" text="SELECT " textFill="#ffffff" underline="true" visible="false">
          <font>
             <Font size="19.0" />
          </font>
       </Label>
-      <Label alignment="TOP_LEFT" contentDisplay="TEXT_ONLY" layoutX="219.0" layoutY="242.0" prefHeight="25.0" prefWidth="190.0" style="-fx-background-color: #000000;" text="PLANTS OR ZOMBIES" textAlignment="CENTER" textFill="WHITE" underline="true">
+      <Label alignment="TOP_LEFT" contentDisplay="TEXT_ONLY" layoutX="219.0" layoutY="242.0" prefHeight="25.0" prefWidth="190.0" style="-fx-background-color: #000000;" text="PLANTS OR ZOMBIES" textAlignment="CENTER" textFill="WHITE" underline="true" visible="false">
          <font>
             <Font size="19.0" />
          </font>
       </Label>
-      <Button layoutY="7.0" mnemonicParsing="false" onAction="#Goback1" prefHeight="25.0" prefWidth="41.0" styleClass="return" stylesheets="@almnac.css" />
+      <Button layoutX="503.0" layoutY="374.0" mnemonicParsing="false" onAction="#Goback1" opacity="0.0" prefHeight="9.0" prefWidth="75.0" styleClass="return" stylesheets="@almnac.css" />
    </children>
 </AnchorPane>

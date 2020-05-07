@@ -1,0 +1,17 @@
+.bodybg
+{
+    -fx-background-image: url("AlmanacIndex.png");
+    -fx-background-size: 100% 100%;
+}
+
+.bodybgplant
+{
+ -fx-background-image: url("almancplant.jpg");
+ -fx-background-size: 100% 100%;
+}
+
+.bodybgzombie
+{
+ -fx-background-image: url("ZOMBIEMAIN.jpg");
+ -fx-background-size: 100% 100%;
+}

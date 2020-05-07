@@ -4,6 +4,8 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -39,72 +41,68 @@ public class ALMNAC {
     }
 
     public void PSdetails(ActionEvent actionEvent) {
-        box.setText("Peashooters are your first line of defense. They shoot peas at attacking zombies.");
-        box1.setText("Unlocked: at the beginning");
-        box11.setText("Sun-cost: 100");
-
+        Image image = new Image("p2.jpg", 220, 360, false, false);
+        box.setGraphic(new ImageView(image));
 
     }
 
     public void RPdetails(ActionEvent actionEvent) {
-        box.setText("Repeaters fire two peas at a time");
-        box1.setText("Unlocked: after completing level 3");
-        box11.setText("Sun-cost: 200");
+        Image image = new Image("p6.jpg", 220, 360, false, false);
+        box.setGraphic(new ImageView(image));
 
     }
 
     public void WNdetails(ActionEvent actionEvent) {
-        box.setText("Wall-nuts have hard shells which you can use to protect your other plants.");
-        box1.setText("Unlocked: after completing level 2");
-        box11.setText("Sun-cost: 50");
+        Image image = new Image("p3.jpg", 220, 360, false, false);
+        box.setGraphic(new ImageView(image));
+
+
 
     }
 
     public void TNdetails(ActionEvent actionEvent) {
-        box.setText("Tall-nuts are heavy-duty wall plants that can't be vaulted over.");
-        box1.setText("Unlocked: after completing level 4");
-        box11.setText("Sun-cost: 125");
+        Image image = new Image("p4.jpg", 220, 360, false, false);
+        box.setGraphic(new ImageView(image));
 
     }
 
     public void SFdetails(ActionEvent actionEvent) {
-        box.setText("Sunflowers are essential for you to produce extra sun. Try planting as many as you can!");
-        box1.setText("Unlocked: after completing level 1");
-        box11.setText("Sun-cost: 50");
+        Image image = new Image("p1.jpg", 220, 360, false, false);
+        box.setGraphic(new ImageView(image));
+
 
     }
 
     public void CBdetails(ActionEvent actionEvent) {
-        box.setText("Cherry Bombs can blow up all zombies in an area. They have a short fuse so plant them near zombies.");
-        box1.setText("Unlocked: after completing level 2");
-        box11.setText("Sun-cost: 150");
-
+        Image image = new Image("p5.jpg", 220, 360, false, false);
+        box.setGraphic(new ImageView(image));
     }
 
     public void Zdetails(ActionEvent actionEvent) {
-        ox.setText("A normal zombie.");
-        ox1.setText("Health: 200");
+        Image image = new Image("z1.jpg", 220, 360, false, false);
+        ox.setGraphic(new ImageView(image));
+
     }
 
     public void CZdetails(ActionEvent actionEvent) {
-        ox.setText("Headwear zombie uses a traffic cone to protect itself");
-        ox1.setText("Health: 560");
+        Image image = new Image("z3.jpg", 220, 360, false, false);
+        ox.setGraphic(new ImageView(image));
 
     }
 
     public void FZdetails(ActionEvent actionEvent) {
-        ox.setText("Moves slightly faster and signals a huge wave incoming.");
-        ox1.setText("Health: 200");
+        Image image = new Image("z2.jpg", 220, 360, false, false);
+        ox.setGraphic(new ImageView(image));
     }
 
     public void BZdetails(ActionEvent actionEvent) {
-        ox.setText("Headwear zombie has a bucket that is extremely resistant to damage");
-        ox1.setText("Health: 1300");
+        Image image = new Image("z4.jpg", 220, 360, false, false);
+        ox.setGraphic(new ImageView(image));
     }
 
     public void NZdetails(ActionEvent actionEvent) {
-        ox.setText("Shield zombie, moves slowly at first, moves twice as fast and grunts after its newspaper is destroyed.\t");
-        ox1.setText("Health: 350");
+        Image image = new Image("z5.jpg", 220, 360, false, false);
+        ox.setGraphic(new ImageView(image));
     }
 
 

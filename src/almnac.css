@@ -96,10 +96,56 @@
 }
 .level2bg
 {
-    -fx-background-image: url("level2.png");
+    -fx-background-image: url("Flag_Zombie1.png");
     -fx-background-size: 100% 100%;
-}.level3bg
+}
+ .level3bg
  {
-     -fx-background-image: url("level-3.png");
+     -fx-background-image: url("level2.png");
      -fx-background-size: 100% 100%;
  }
+ .level6bg
+ {
+     -fx-background-image: url("level6.jpg");
+     -fx-background-size: 100% 100%;
+ }
+.level4bg
+{
+    -fx-background-image: url("level-4.jpg");
+    -fx-background-size: 100% 100%;
+}
+.backyardbg
+{
+    -fx-background-image: url("backyard.jpg");
+    -fx-background-size: 100% 100%;
+}
+.woodbg
+{
+    -fx-background-image: url("wood.jpg");
+    -fx-background-size: 100% 100%;
+}
+.sunbg
+{
+    -fx-background-image: url("sunwood.jpg");
+    -fx-background-size: 100% 100%;
+}
+.counterbg
+{
+    -fx-background-image: url("Counter.png");
+    -fx-background-size: 100% 100%;
+}
+.peashooterinactivebg
+{
+    -fx-background-image: url("inactive_peashooter.png");
+    -fx-background-size: 100% 100%;
+}
+.savegamebg
+{
+    -fx-background-image: url("savegame.jpg");
+    -fx-background-size: 100% 100%;
+}
+.mowerbg
+{
+    -fx-background-image: url("lawn_mower.gif");
+    -fx-background-size: 100% 100%;
+}

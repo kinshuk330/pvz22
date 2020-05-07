@@ -1,0 +1,140 @@
+.plantsbg
+{
+    -fx-background-image: url("plants.jpg");
+    -fx-background-size: 100% 100%;
+}
+.zombiesbg
+{
+    -fx-background-image: url("zombies.jpg");
+    -fx-background-size: 100% 100%;
+}
+.peashooterbg
+{
+    -fx-background-image: url("Peashooter1.png");
+    -fx-background-size: 100% 100%;
+
+}
+.repeaterbg
+{
+    -fx-background-image: url("Repeater1.png");
+    -fx-background-size: 100% 100%;
+
+}
+.cherrybombbg
+{
+    -fx-background-image: url("Cherry_Bomb1.jpeg");
+    -fx-background-size: 100% 100%;
+
+}
+.sunflowerbg
+{
+    -fx-background-image: url("Sunflower1.png");
+    -fx-background-size: 100% 100%;
+
+}
+.wallnutbg
+{
+    -fx-background-image: url("Wall-nut1.png");
+    -fx-background-size: 100% 100%;
+
+}
+.tallnutbg
+{
+    -fx-background-image: url("Tall-nut1.png");
+    -fx-background-size: 100% 100%;
+
+}
+.Zbg
+{
+    -fx-background-image: url("Zombie1.png");
+    -fx-background-size: 100% 100%;
+
+}.FZbg
+ {
+     -fx-background-image: url("Flag_Zombie1.png");
+     -fx-background-size: 100% 100%;
+
+ }.CZbg
+  {
+      -fx-background-image: url("Conehead_Zombie1.png");
+      -fx-background-size: 100% 100%;
+
+  }.BZbg
+   {
+       -fx-background-image: url("Buckethead_Zombie1.png");
+       -fx-background-size: 100% 100%;
+
+   }.NZbg
+    {
+        -fx-background-image: url("Newspaper_Zombie1.png");
+        -fx-background-size: 100% 100%;
+
+    }
+.return
+{
+    -fx-background-image: url("return.png");
+    -fx-background-size: 100% 100%;
+}
+.userbg
+{
+    -fx-background-image: url("user-bg.png");
+    -fx-background-size: 100% 100%;
+}
+.userbg
+{
+    -fx-background-image: url("user-bg.png");
+    -fx-background-size: 100% 100%;
+}.selectlevelbg
+ {
+     -fx-background-image: url("Quickplay_ipad.png");
+     -fx-background-size: 100% 100%;
+ }
+.level1bg
+{
+    -fx-background-image: url("level1.png");
+    -fx-background-size: 100% 100%;
+}
+.level2bg
+{
+    -fx-background-image: url("level2.png");
+    -fx-background-size: 100% 100%;
+}.level3bg
+ {
+     -fx-background-image: url("level-3.png");
+     -fx-background-size: 100% 100%;
+ }
+.backyardbg
+{
+    -fx-background-image: url("backyard.jpg");
+    -fx-background-size: 100% 100%;
+}
+.woodbg
+{
+    -fx-background-image: url("wood.jpg");
+    -fx-background-size: 100% 100%;
+}
+.sunbg
+{
+    -fx-background-image: url("sunwood.jpg");
+    -fx-background-size: 100% 100%;
+}
+.counterbg
+{
+    -fx-background-image: url("Counter.png");
+    -fx-background-size: 100% 100%;
+}
+.peashooterinactivebg
+{
+    -fx-background-image: url("inactive_peashooter.png");
+    -fx-background-size: 100% 100%;
+}
+.savegamebg
+{
+    -fx-background-image: url("savegame.jpg");
+    -fx-background-size: 100% 100%;
+}
+.mowerbg
+{
+    -fx-background-image: url("lawn_mower.gif");
+    -fx-background-size: 100% 100%;
+}

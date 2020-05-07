@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ALMNAC">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="bodybgzombie" stylesheets="@bg-al.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ALMNAC">
     <children>
-        <Button mnemonicParsing="false" onAction="#Zdetails" prefHeight="150.0" prefWidth="200.0" styleClass="Zbg" stylesheets="@almnac.css" />
-        <Button layoutY="150.0" mnemonicParsing="false" onAction="#CZdetails" prefHeight="150.0" prefWidth="200.0" styleClass="CZbg" stylesheets="@almnac.css" />
-        <Button layoutX="200.0" mnemonicParsing="false" onAction="#FZdetails" prefHeight="150.0" prefWidth="200.0" styleClass="FZbg" stylesheets="@almnac.css" />
-        <Button layoutX="400.0" mnemonicParsing="false" onAction="#BZdetails" prefHeight="150.0" prefWidth="200.0" styleClass="BZbg" stylesheets="@almnac.css" />
-        <Button layoutX="400.0" layoutY="150.0" mnemonicParsing="false" onAction="#NZdetails" prefHeight="150.0" prefWidth="200.0" styleClass="NZbg" stylesheets="@almnac.css" />
-        <Label fx:id="ox" alignment="TOP_LEFT" layoutY="300.0" prefHeight="30.0" prefWidth="500.0" />
+        <Button layoutX="71.0" layoutY="72.0" mnemonicParsing="false" onAction="#Zdetails" opacity="0.0" prefHeight="79.0" prefWidth="65.0" styleClass="Zbg" stylesheets="@almnac.css" />
+        <Button layoutX="242.0" layoutY="67.0" mnemonicParsing="false" onAction="#CZdetails" opacity="0.0" prefHeight="90.0" prefWidth="73.0" styleClass="CZbg" stylesheets="@almnac.css" />
+        <Button layoutX="155.0" layoutY="67.0" mnemonicParsing="false" onAction="#FZdetails" opacity="0.0" prefHeight="90.0" prefWidth="73.0" styleClass="FZbg" stylesheets="@almnac.css" />
+        <Button layoutX="155.0" layoutY="171.0" mnemonicParsing="false" onAction="#BZdetails" opacity="0.0" prefHeight="72.0" prefWidth="73.0" styleClass="BZbg" stylesheets="@almnac.css" />
+        <Button layoutX="64.0" layoutY="171.0" mnemonicParsing="false" onAction="#NZdetails" opacity="0.0" prefHeight="79.0" prefWidth="79.0" styleClass="NZbg" stylesheets="@almnac.css" />
+        <Label fx:id="ox" alignment="TOP_LEFT" layoutX="331.0" layoutY="2.0" prefHeight="281.0" prefWidth="220.0" />
         <Label fx:id="ox1" alignment="TOP_LEFT" layoutY="330.0" prefHeight="30.0" prefWidth="400.0" />
-      <Button mnemonicParsing="false" onAction="#Goback" prefHeight="25.0" prefWidth="41.0" styleClass="return" stylesheets="@almnac.css" />
+      <Button layoutX="325.0" layoutY="361.0" mnemonicParsing="false" onAction="#Goback" opacity="0.0" prefHeight="38.0" prefWidth="89.0" styleClass="return" stylesheets="@almnac.css" />
     </children>
 </AnchorPane>

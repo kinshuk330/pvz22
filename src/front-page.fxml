@@ -26,9 +26,9 @@
         </rowConstraints>
          <children>
             <Button fx:id="newgamebtn" mnemonicParsing="false" onAction="#NewGame" styleClass="button-color" stylesheets="@buttons.css" text="NEW GAME" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
-            <Button alignment="CENTER" mnemonicParsing="false" style="-fx-background-color: #000000;" text="EXIT" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
-            <Button mnemonicParsing="false" styleClass="button-color" stylesheets="@buttons.css" text="LOAD GAME" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
-            <Button fx:id="almnacbtn" alignment="CENTER" mnemonicParsing="false" onAction="#displayalmnac" text="ALMNAC" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM" />
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#EXIT" style="-fx-background-color: #000000;" text="EXIT" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#loadgame" styleClass="button-color" stylesheets="@buttons.css" text="LOAD GAME" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+            <Button fx:id="almnacbtn" alignment="CENTER" mnemonicParsing="false" onAction="#displayalmnac" stylesheets="@buttons.css" text="ALMNAC" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="BOTTOM" />
          </children>
       </GridPane>
    </children>

@@ -1,0 +1,30 @@
+.peashooter
+{
+    -fx-background-image: url("pea_inactive.jpg");
+    -fx-background-size: 100% 100%;
+}.sunflower
+ {
+     -fx-background-image: url("sunflower_inactive.jpg");
+     -fx-background-size: 100% 100%;
+ }.walnut
+  {
+      -fx-background-image: url("wall_inactive.jpg");
+      -fx-background-size: 100% 100%;
+  }.bomb
+   {
+       -fx-background-image: url("bomb_inactive.jpg");
+       -fx-background-size: 100% 100%;
+   }.doublepea
+    {
+        -fx-background-image: url("dpea_inactive.jpg");
+        -fx-background-size: 100% 100%;
+    }.talnut
+     {
+         -fx-background-image: url("tall_inactve.jpg");
+         -fx-background-size: 100% 100%;
+     }
+.shovel
+{
+    -fx-background-image: url("Shovel.jpg");
+    -fx-background-size: 100% 100%;
+}
